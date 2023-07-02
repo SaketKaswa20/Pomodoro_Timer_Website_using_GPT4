@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-800 text-white min-h-screen flex flex-col items-center justify-center">
+   <div class="text-center">
+        <div class="text-6xl mb-4">
+            🕒
+        </div>
+        <div id="timer" class="text-9xl mb-4">
+            00:00
+        </div>
+        <div>
+           <input id="workTime" type="number" placeholder="Work Time" class="mr-2 p-2 rounded bg-gray-700 text-white">
+           <input id="breakTime" type="number" placeholder="Break Time" class="mr-2 p-2 rounded bg-gray-700 text-white">
+            <input id="laps" type="number" placeholder="No. of Laps" class="mr-2 p-2 rounded bg-gray-700 text-white">
+            <button id="startButton" class="p-2 rounded bg-green-500 text-white">Start</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
